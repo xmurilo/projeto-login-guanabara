@@ -1,0 +1,45 @@
+@media screen and (min-width:768px) and (max-width:998px) {
+
+  body {
+    background: rgb(113,113,218);
+    background: linear-gradient(184deg, rgba(113,113,218,1) 44%, rgba(1,132,172,1) 87%);
+  }
+
+  section#login {
+    width: 80vw;
+  }
+
+  div#img {
+    width: 30%;
+    height: 100%;
+    float: left;
+  }
+
+  div#formulario {
+    float: right;
+    width: 70%;
+  }
+}
+
+@media screen and (min-width:998px) {
+
+  body {
+    background: rgb(113,113,218);
+    background: linear-gradient(184deg, rgba(113,113,218,1) 44%, rgba(1,132,172,1) 87%);
+  }
+
+  section#login {
+    width: 950px;
+  }
+
+  div#img {
+    width: 50%;
+    height: 100%;
+    float: right;
+  }
+
+  div#formulario {
+    width: 50%;
+    float: left;
+  }
+}
