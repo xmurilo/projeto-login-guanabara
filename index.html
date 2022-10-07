@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="estilo/style.css" />
     <link rel="stylesheet" href="media-query.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
 
     <title>Login</title>
   </head>
@@ -21,8 +25,33 @@
             Seja bem vindo(a) novamente, Faça login para acessar sua conta e
             configurar seu amgbiente
           </p>
+
+          <form action="" method="post" autocomplete="on">
+            <div id="campo">
+              <label for="iemail">
+                <span class="material-icons">person</span></label
+              >
+              <input
+                type="email"
+                name="email"
+                id="iemail"
+                placeholder="Seu email"
+                required
+                autocomplete="email"
+              />
+            </div>
+  
+            <div id="campo">
+              <label for="isenha">
+                <span class="material-icons">lock</span>
+              </label>
+              <input type="password" name="senha" id="isenha" minlength="8" placeholder="Sua senha" autocomplete="current-password" />
+            </div>
+            <input type="submit" value="Entrar">
+            <a href="esqueci.html" target="_blank" class="botao">Esqueci a senha <span class="material-icons">mail</span></a>
+          </form>
         </div>
-        <form action="" method="post"></form>
+        
       </section>
     </main>
   </body>
